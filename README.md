@@ -1,4 +1,4 @@
-## README pour l'application de gestion des employés
+## README Application de gestion des employés (S3)
 ![Langage](https://img.shields.io/badge/Langage-Java-brown)
 ![Langage](https://img.shields.io/badge/Langage-JSP-orange)
 ![Style](https://img.shields.io/badge/CSS-Tailwind_CSS-cyan
