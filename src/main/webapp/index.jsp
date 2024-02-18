@@ -6,7 +6,7 @@
 <title>Liste des Employés</title>
 <link rel="stylesheet" href="./style/tailwindV2.2.19.min.css">
 <link rel="stylesheet" href="./style/style.css">
-<link rel="shortcut icon" href="img/JspProjIcon.png" type="image/x-icon">
+<link rel="shortcut icon" href="img/JspProjIcon2.png" type="image/x-icon">
 </head>
 <body class="overflow-hidden transition duration-300 ease">
 	<nav class="bg-gray-800">
