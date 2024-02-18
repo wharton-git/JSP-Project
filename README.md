@@ -4,6 +4,7 @@
 ![Style](https://img.shields.io/badge/CSS-Tailwind_CSS-cyan
 )
 ![Graph](https://img.shields.io/badge/Chart-CanvaJS-Green)
+![BDD](https://img.shields.io/badge/Database-Mysql-violet)
 
 **Description du projet:**
 
