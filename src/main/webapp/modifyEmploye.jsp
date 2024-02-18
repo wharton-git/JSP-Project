@@ -6,6 +6,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="./style/tailwindV2.2.19.min.css">
+<link rel="shortcut icon" href="img/JspProjIcon.png" type="image/x-icon">
 <title>Modifier</title>
 </head>
 <body>
