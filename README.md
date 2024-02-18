@@ -1,5 +1,6 @@
 ## README pour l'application de gestion des employés
-![Langage](https://img.shields.io/badge/Langage-JSP-brown)
+![Langage](https://img.shields.io/badge/Langage-Java-brown)
+![Langage](https://img.shields.io/badge/Langage-JSP-orange)
 ![Style](https://img.shields.io/badge/Desing-Tailwind-cyan
 )
 
