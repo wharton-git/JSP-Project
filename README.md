@@ -1,5 +1,7 @@
 ## README pour l'application de gestion des employés
 ![Langage](https://img.shields.io/badge/Langage-JSP-brown)
+![Style](https://img.shields.io/badge/Desing-Tailwind-cyan
+)
 
 **Description du projet:**
 
