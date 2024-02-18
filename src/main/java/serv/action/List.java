@@ -47,7 +47,7 @@ public class List extends HttpServlet {
 				if (sal > 5000) {
 					obs = "Grand";
 				}else if ( sal < 5000 && sal > 1000) {
-					obs = "moyen";
+					obs = "Moyen";
 				}
 				
 				String[] ligne = {id, nom, salaire, obs};

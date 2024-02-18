@@ -38,7 +38,7 @@ public class Delete extends HttpServlet {
 				ps.setString(1, id);
 				ps.execute();
 				
-				String msg = "<div class=\"py-1 px-2 bg-green-600 rounded-lg\">Supprimé avec succes</div>";
+				String msg = "<div id=\"message\" class=\"py-1 px-2 bg-green-600 rounded-lg\">Supprimé avec succes</div>";
 				
 				System.out.println(msg);
 				
@@ -47,7 +47,7 @@ public class Delete extends HttpServlet {
 				con.close();
 				
 			}catch(Exception e) {
-				String msg = "<div class=\"py-1 px-2 bg-red-400 rounded-lg\">Erreur lors de la suppression</div>";
+				String msg = "<div id=\"message\" class=\"py-1 px-2 bg-red-400 rounded-lg\">Erreur lors de la suppression</div>";
 				
 				request.setAttribute("msg", msg);
 				request.getRequestDispatcher("/list").forward(request, response);

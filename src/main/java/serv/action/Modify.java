@@ -3,7 +3,6 @@ package serv.action;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-import java.sql.SQLException;
 import java.io.IOException;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -78,7 +77,7 @@ public class Modify extends HttpServlet {
 			
 			ps.execute();
 			
-			String msg = "<div class=\"py-1 px-2 bg-green-600 rounded-lg\">L'information concernant l'employé " + nom + " a été modifié avec succes.</div>";
+			String msg = "<div id=\"message\" class=\"py-1 px-2 bg-green-600 rounded-lg\">L'information concernant l'employé " + nom + " a été modifié avec succes.</div>";
 			
 			System.out.println(msg);
 			
@@ -87,7 +86,7 @@ public class Modify extends HttpServlet {
 			request.getRequestDispatcher("/list").forward(request, response);
 			con.close();
 		}catch (Exception e) {
-			String msg = "<div class=\"py-1 px-2 bg-red-400 rounded-lg\">Erreur lors de la Modification</div>";
+			String msg = "<div id=\"message\" class=\"py-1 px-2 bg-red-400 rounded-lg\">Erreur lors de la Modification</div>";
 			
 			request.setAttribute("msg", msg);
 			request.getRequestDispatcher("/list").forward(request, response);

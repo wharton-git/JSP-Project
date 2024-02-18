@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="./style/tailwindV2.2.19.min.css">
 <link rel="stylesheet" href="./style/style.css">
 </head>
-<body class="overflow-hidden">
+<body class="overflow-hidden transition duration-300 ease">
 	<nav class="bg-gray-800">
 		<div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
 			<div class="relative flex h-16 items-center justify-between">
@@ -24,9 +24,9 @@
 						<div class="flex space-x-4">
 							<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
 							<a href="/jspSujet3/list"
-								class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Liste</a>
+								class="text-gray-300 transition duration-300 ease hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Liste</a>
 							<a href="#"
-								class="bg-gray-900 text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+								class="bg-gray-900 transition duration-300 ease text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
 								aria-current="page">Graph</a>
 						</div>
 					</div>
@@ -34,7 +34,7 @@
 				<div
 					class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
 					<a href="addEmploye.html"
-						class="animate-pulse bg-blue-800 text-white hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">
+						class="transition duration-300 ease bg-blue-800 text-white hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">
 						+ Employé</a>
 				</div>
 			</div>
@@ -47,9 +47,9 @@
 				<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
 
 				<a href="/jspSujet3/list"
-					class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Liste</a>
+					class="text-gray-300 transition duration-300 ease hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Liste</a>
 				<a href="#"
-					class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium"
+					class="bg-gray-900 transition duration-300 ease text-white block rounded-md px-3 py-2 text-base font-medium"
 					aria-current="page">Graph</a>
 			</div>
 		</div>

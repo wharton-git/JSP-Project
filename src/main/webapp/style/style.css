@@ -1,0 +1,12 @@
+#message {
+    animation: normal littleBig .5s;
+}
+
+@keyframes littleBig {
+    0% {
+        scale: 0;
+    }
+    100% {
+        scale: 1;
+    }
+}

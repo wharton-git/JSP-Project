@@ -51,7 +51,7 @@ public class Add extends HttpServlet {
 			ps.setString(2, salaire);
 			ps.execute();
 			
-			msg = "<div class=\"py-1 px-2 bg-green-600 rounded-lg\">Ajouté avec succes</div>";
+			msg = "<div id=\"message\" class=\"py-1 px-2 bg-green-600 rounded-lg\">Ajouté avec succes</div>";
 			
 			request.setAttribute("msg", msg);
 			
@@ -65,7 +65,7 @@ public class Add extends HttpServlet {
 		}catch (Exception e) {
 			Logger.getLogger(Add.class.getName()).log(Level.SEVERE, null, e);
 			
-			msg = "<div class=\"py-1 px-2 bg-red-400 rounded-lg\">Erreur lors de l'ajout</div>";
+			msg = "<div id=\"message\" class=\"py-1 px-2 bg-red-400 rounded-lg\">Erreur lors de l'ajout</div>";
 			
 			request.setAttribute("msg", msg);
 			
